@@ -39,7 +39,7 @@
     transform: scale(1.2);
 }
 .portfolio-item .hover-bg {
-    height: 260px;
+    height:260px;
     overflow: hidden;
     position: relative;
 }
@@ -206,8 +206,8 @@ a.more:hover{
 }
 
 .carousel-indicators{
-	bottom: 300px !important;
-	z-index: 10000 !important;
+	bottom:16rem !important;
+	z-index: 1000!important;
 }
 #mySlide h3{
 	
