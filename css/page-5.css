@@ -210,8 +210,10 @@ a.more:hover{
 	z-index: 10000 !important;
 }
 #mySlide h3{
+	
 	position: absolute;
-	top: 40px;
-	left: 200px;
-	color: #fff;
+	top: 3.4rem;
+	left: 3.666666rem;
+	color: rgba(255,255,255,0.3);
+	
 }
