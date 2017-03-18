@@ -16,7 +16,7 @@
     -webkit-animation: flip 1s linear ;
     animation: flip 1s linear ;
     color: rgba(16, 16, 16, 0.98);
-    text-shadow: 1px 1px 1px red;
+    /*text-shadow: 1px 1px 1px red;*/
 }
 .item-4 .experience {
     height: 100px;

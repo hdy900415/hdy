@@ -1,23 +1,15 @@
 /**********************基本信息页面**********************************/
-.item-2 .move{
-	height: 99.333333rem;
-	z-index: -10;
-}
+
 .item-2 .row{
-	width: 100%;
-	position: absolute;
-	padding-top: 20%;
-	
     margin-top: 30px;
+    position: relative;
 }
 .item-2 .container  {
-	position: relative;
     display: none;
 }
 .item-2 .container .icon-infomation {
-	padding-right: 10px;
     height: 211px;
- /* position: relative;*/
+  position: relative;
 }
 .item-2 .container .icon-infomation img {
     /*height: 100%;*/
@@ -67,3 +59,48 @@
     animation: slideOutUp .5s linear ;
 }
 /**********************基本信息页面end********************************/
+.item-2  .corner1,
+.item-2  .corner2,
+.item-2  .corner3,
+.item-2  .corner4{
+    max-width: 72px;
+    min-width: 50px;
+    width: 5%;
+    position: absolute;
+
+}
+.item-2  [class^='corner'] img {
+    width: 100%;
+}
+
+.item-2  .corner1{
+    left: 10%;
+    top: 10%;
+    animation: corner1 1s ease;
+    -webkit-animation: corner1 1s ease;
+    transform-origin: 0;
+    -webkit-transform-origin: 0;
+}
+
+.item-2 .corner2{
+    left: 10%;
+    bottom: 10%;
+    animation: corner2 1s ease;
+    -webkit-animation: corner2 1s ease;
+    transform-origin: 0;
+    -webkit-transform-origin: 0;
+}
+.item-2 .corner3{
+    right: 10%;
+    top: 10%;
+    animation: corner3 1s ease;
+    -webkit-animation: corner3 1s ease;
+}
+
+.item-2 .corner4{
+    right: 10%;
+    bottom: 10%;
+    animation: corner4 1s ease;
+    -webkit-animation: corner4 1s ease;
+
+}

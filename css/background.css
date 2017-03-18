@@ -1,18 +1,18 @@
 /*********************设置背景************************************/
 .item-1 {
-    background: url("../images/bg7.jpg") no-repeat center center;
+    /*background: url("../images/bg7.jpg") no-repeat center center;
     -webkit-background-size: cover;
-    background-size:cover ;
+    background-size:cover ;*/
 }
 .item-2 {
 	
-    /*background: url("../images/bg2.jpg") no-repeat center center;
+    background: url("../images/bg2.jpg") no-repeat center center;
     -webkit-background-size: cover;
-    background-size:cover;*/
+    background-size:cover;
 }
 .item-3 {
-	width: 100% !important;
-   background: url("../images/2312.jpg"); 
+	/*width: 100% !important;*/
+   background: url("../images/bg6.jpg"); 
     -webkit-background-size: cover;
 }
 
@@ -20,13 +20,13 @@
     background: rgba(255, 255, 255, .1);!important;
 }
 .item-5 {
-    background: url("../images/bg4.jpg") no-repeat center center;
+    background: url("../images/bg3.jpg") no-repeat center center;
     -webkit-background-size: cover;
     background-size:cover;
 }
 .item-6 {
 	
-   background: url("../images/bg7.jpg") !important; 
+   background: url("../images/2312.jpg") !important; 
     -webkit-background-size: cover;
 }
 
