@@ -29,8 +29,12 @@ setTimeout(function () {
 
   project_info();
 
-
-
+//$('#demo1').videoUI();
+//
+//$('#demo1').videoUI({
+//'autoHide':true,
+//'volumeMedia': 1
+//});
 
   $('#resume').fullpage({
       sectionsColor: ['transparent', 'transparent', '#e4e4e4', 'rgba(255, 255, 255, .0)', 'transparent', 'transparent'],
@@ -152,6 +156,10 @@ setTimeout(function () {
             $('.item-1 .corner').show();
             $('.resume-hide').show();
             $('.navbar').addClass('black');
+            $('#demo1').videoUI({
+  				'autoHide':true,
+ 				 'volumeMedia': 1
+			});
             break;
           case 'page2':
             $('.item-2 .container').show();

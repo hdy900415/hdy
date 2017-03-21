@@ -1,33 +1,71 @@
 
-.item-1 .move{
+.item-1  #demo1{
+	
 	z-index: -10;
 }
+@media screen and (max-width:850px) {
+	.item-1 .word {
+    position: absolute;
+    top: 35%  !important;
+    left: 20% !important;
+	}
+
+	.item-1 .word>span:first-child {
+	 text-align: center;
+  	font-size: 20px !important;
+	}
+	.item-1 .word>span.hidden-xs,
+    .item-1 .word>span.col-xs-12{
+    font-size: 20px !important;
+    color:yellow;
+	}
+	
+.item-1  .motto {
+    left: -3% !important;
+    font-size: 25px;
+	}
+.item-1 .next-page {
+    position: absolute;
+    margin-left: -35px;
+    left: 47% !important;
+    bottom: -66% !important;
+    border: 2px solid rgba(255,255,255,.3);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+	}
+
+}
+
 .item-1 .word {
      position: absolute;
     top: 30%;
     left: 35%;
+    
 }
 .item-1 .word>span:first-child {
 		
-   /* text-align: center;*/
-    font-size: 50px;
+    text-align: center;
+  	font-size: 50px;
     font-weight: 700;
     color: red;
    /* text-shadow: 5px -2px 8px #151414;*/
 }
 .item-1 .word>span.hidden-xs,
 .item-1 .word>span.col-xs-12{
-    color:red;
+    color:yellow;
    /* text-shadow: 9px -2px 15px #000;*/
 }
 
 .item-1 .motto {
-	left: -13% !important;
+	left: -13% ;
     font-size: 25px;
 }
 .item-1 .next-page {
     position: absolute;
-    left: 47%;
+    margin-left: -35px;
+    left: 37%;
+    bottom: -100%;
     border: 2px solid rgba(255,255,255,.3);
     width: 70px;
     height: 70px;
@@ -41,7 +79,7 @@
 }
 
 .item-1 .next-page{
-	bottom:30%;
+
     line-height: 80px;
     overflow: hidden;
     background: rgba(0,0,0,.2);

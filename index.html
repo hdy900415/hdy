@@ -22,6 +22,9 @@
     <style type="text/css">
     	*{list-style: none;}
     </style>
+    <script type="text/javascript">
+    	$('#demo1').videoUI();
+    </script>
 </head>
 <body>
 <!--导航栏-->
@@ -77,18 +80,25 @@
             <span class="resume-hide">UI设计师+前端工程师</span>
             <span class="hidden-xs resume-hide">简历</span>
             <span class="col-xs-12 hidden-sm hidden-md hidden-lg resume-hide">简历</span>
-            <p class="motto resume-hide hinge-sty" style="position: relative">爱技术，爱生活</p>
-        </div>
-			 <a href="#" class="next-page ">
+            <p class="motto resume-hide hinge-sty" style="position: relative" >爱技术，爱生活</p>
+            <a href="#" class="next-page ">
                 <span class="glyphicon glyphicon-chevron-down"></span>
             </a>
+        </div>
+			  
                   <!-- 16:9 aspect ratio -->
-               <div class="embed-responsive embed-responsive-16by9 move ">
+               <!--<div class="embed-responsive embed-responsive-16by9 move ">
             	
                  <iframe class="embed-responsive-item" src="images/XX.mp4" ></iframe>
+           	
+             </div>-->
+             <video width="100%" height="100%" id="demo1" autoplay="autoplay" loop="loop" controls="controls">
+             	<source src="images/XX.mp4" type="video/mp4"></source>
+             	<source src="myvideo.ogv" type="video/ogg"></source>
+             	<source src="myvideo.webm" type="video/webm"></source>
            
-             </div>
-
+             	当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+             </video>
     </div>
     <div class="section item-2">
         <div class="container">
